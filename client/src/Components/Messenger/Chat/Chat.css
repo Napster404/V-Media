@@ -1,0 +1,127 @@
+.chat {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.chat__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__container > p {
+  margin-left: 10px;
+  margin-right: auto;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.chat__message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chat__messageBody {
+  display: flex;
+  padding: 10px 10px;
+  max-width: 80%;
+  align-items: flex-start;
+  background-color: #dae6f1;
+  border-radius: 20px;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.chat__messageBodyReply {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #99CEFF;
+  margin-bottom: 5px;
+  width: calc(100% - 20px);
+}
+
+.chat__messageBodyReply h3{
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.chat__messageBodyReply p{
+  font-size: 12px;
+  word-break: break-all;
+}
+
+.chat__messageBody > p {
+  margin: 0 5px;
+  font-size: 14px;
+  word-break: break-all;
+  text-align: justify;
+}
+
+.chat__forward .MuiIconButton-root {
+  padding: 5px;
+  margin: 0 3px;
+  background-color: lightgray;
+  visibility: hidden;
+}
+
+.chat__forward .MuiSvgIcon-root {
+  font-size: 20px;
+}
+
+.chat__container:hover .chat__forward .MuiIconButton-root {
+  visibility: visible;
+}
+
+
+/* For Chat Sent */
+
+.chat__sent {
+  flex-direction: row-reverse;
+}
+
+.chat__sent .chat__container > p {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.chat__sent .chat__message {
+  flex-direction: row-reverse;
+}
+
+.chat__sent .chat__messageBody {
+  background-color: #2e81f4;
+  color: white;
+  align-items: flex-end;
+  margin-left: 10px;
+}
+
+.chat__sent .chat__messageBodyReply {
+  color: black;
+  align-items: flex-end;
+}
+
+
+/* For Chat Information */
+
+.chat__info {
+  justify-content: center;
+}
+
+.chat__infoContent {
+  border-radius: 20px;
+  background-color: #99CEFF;
+  padding: 10px;
+}
+
+.chat__infoContent > p {
+  margin: 0 5px;
+  font-size: 13px;
+  font-weight: 600;
+  word-break: break-all;
+  text-align: justify;
+}

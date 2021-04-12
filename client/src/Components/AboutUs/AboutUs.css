@@ -1,0 +1,86 @@
+.card_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    height:calc(100vh - 180px);
+}
+
+.align_center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__heading {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.card{
+    background-color: #bbf1fa;
+    border-radius: 10px;
+    padding:50px
+}
+
+.card_img{
+    display: flex;
+    justify-content: center;
+}
+
+.card_img img{
+    width: 150px;
+    height:150px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+.card_socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding:10px;
+}
+
+.card_socialmedia form{
+    width: fit-content;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+
+.college_info .college_name{
+    margin-bottom: 10px;
+}
+
+.college_info .degree{
+    color: gray;
+}
+
+.blue:hover{
+    color: #2e81f4;
+}
+
+.black:hover{
+    color:black;
+}
+
+.red :hover{
+    color:red;
+}

@@ -1,0 +1,67 @@
+.homeRight {
+  padding: 30px 10px;
+  flex: 0.4;
+  z-index: 10;
+  height: calc(100vh - 115px);
+  overflow: auto;
+  position: sticky;
+  top: 55px;
+  min-width: max-content;
+}
+
+.homeRight__info {
+  color: #65676b;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Create New Option */
+
+.homeRight__new {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  margin-top: 10px;
+}
+
+.homeRight__new > button {
+  border: none;
+  outline-width: 0;
+  border-radius: 10px;
+  padding: 4px 8px;
+  width: 100%;
+  align-items: center;
+  justify-content: stretch;
+  color: #1a1919;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.homeRight__new > button .MuiSvgIcon-root {
+  padding: 4px;
+  margin: 4px 6px 4px 0;
+  font-size: 20px;
+  background-color: #e4e6eb;
+  border-radius: 999px;
+}
+
+.homeRight__new > button:hover {
+  background-color: lightgray;
+}
+
+.homeRight__new > button p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Event List */
+
+.homeRight__eventList {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

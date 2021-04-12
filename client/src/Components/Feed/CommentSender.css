@@ -1,0 +1,38 @@
+.commentSender {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.commentSender form {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.commentSender__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9edf1;
+  border-radius: 50px;
+  padding-left: 10px;
+}
+
+.commentSender__input input {
+  border: none;
+  outline-width: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #e9edf1;
+}
+
+.commentSender__input .MuiIconButton-root {
+  padding: 2px;
+  margin: 5px;
+}
+
+.commentSender__input .MuiSvgIcon-root {
+  font-size: 22px;
+  color: #2e81f4;
+  padding: 3px;
+}

@@ -1,0 +1,21 @@
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+.sidebarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sidebarRow > p {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.sidebarRow > .sidebarRow__avatar {
+    margin: 10px 10px;  
+}

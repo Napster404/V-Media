@@ -1,0 +1,35 @@
+.chatReply{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #CED0D4;
+    justify-content: space-between;
+}
+
+.chatReply__content {
+    width: 75%;
+    padding: 10px 10px;
+}
+
+.chatReply__content h3{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.chatReply__content p{
+    font-size: 12px;
+    word-break: break-all;
+}
+
+.chatReply__close {
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.chatReply__close .MuiButtonBase-root{
+    padding: 5px;
+}
+
+.chatReply__close .MuiSvgIcon-root{
+    font-size: 20px;
+}

@@ -1,0 +1,100 @@
+.messengerLeft {
+  flex: 0.25;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  
+  height: calc(100vh - 55px);
+  overflow: auto;
+  position: sticky;
+  top: 55px;
+  
+  min-width: max-content;
+  background-color: #ffffff;
+  border-right: 1px solid lightgray;
+}
+
+.messengerLeft__navbar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+
+  height: 40px;
+  padding: 20px 10px 10px 10px;
+}
+
+.messengerLeft__navbarBtn {
+  align-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  background-color: #dae6f1;
+}
+
+.messengerLeft__navbarBtn--active {
+  color: #fff;
+  background-color: #2e81f4;
+}
+
+/* .messengerLeft__navbarBtn:hover {
+  color: #fff;
+  background-color: #2e81f4;
+  transition-duration: 0.25s;
+} */
+
+.messengerLeft__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px 20px 20px;
+  justify-items: center;
+  box-shadow: 0 3px 6px -6px black;
+}
+
+.messengerLeft__searchInput {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline-width: 0;
+  background-color: #f0f2f5;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.messengerLeft__search .MuiIconButton-root {
+  padding: 5px;
+  margin: 7px;
+  background-color: #dfe1e6;
+}
+
+.messengerLeft__search .MuiSvgIcon-root {
+  font-size: 20px;
+  color: grey;
+  padding: 0;
+}
+
+.messengerLeft__searchInput form {
+  margin-left: 5px;
+  background-color: #eff2f5;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.messengerLeft__searchInput input {
+  border: none;
+  outline-width: 0;
+  background-color: #eff2f5;
+  font-size: 14px;
+  width: 100%;
+}
+
+.messengerLeft__rooms {
+  padding: 10px;
+}

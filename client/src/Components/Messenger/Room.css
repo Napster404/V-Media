@@ -1,0 +1,42 @@
+.room {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+.room:hover {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.room > .room__avatar {
+  margin: 10px 10px;
+}
+
+.room__content {
+  display: flex;
+  margin-left: 5px;
+  flex-direction: column;
+}
+
+.room__content > p {
+  font-weight: 600;
+}
+
+.room__contentRecent {
+    display: flex;
+    margin-top: 3px;
+    align-items: center;
+}
+
+.room__contentRecent > h3 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.room__contentRecent > p {
+    font-size: 12px;
+}

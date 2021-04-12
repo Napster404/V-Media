@@ -1,0 +1,27 @@
+.messenger {
+  display: flex;
+}
+
+.messenger__initial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  flex: 0.75;
+  height: calc(100vh - 55px);
+}
+
+.messenger__initial img {
+  height: 30%;
+}
+
+.messenger__initial p {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #5d87bf;
+  background-color: #dae6f1;
+  font-weight: 600;
+  box-shadow: 0 0 20px 5px #5d87bf;
+}

@@ -1,27 +1,26 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
-import Navbar from './Components/Navbar'
-import Sidebar from './Components/Sidebar'
-import Feed from './Components/Feed'
-import Widgets from './Components/Widgets'
+import Login from './Components/Login/Login'
+import Main from './Main'
 
-function App() {
+function App() {  
   return (
     <div className="app">
+      <Router>
+        <Switch>
 
-      {/* Navbar */}
-      <Navbar />
+          <Route exact path="/login">
+            <Login />
+          </Route>
 
-      {/* Sidebar */}
-      <Sidebar />
-      
-      {/* Feed */}
-      <Feed />
+          <Route path="/">
+            <Main />
+          </Route>
 
-      {/* Widgets */}
-      <Widgets />
-
-    </div>
+        </Switch>
+      </Router>
+    </div >
   );
 }
 

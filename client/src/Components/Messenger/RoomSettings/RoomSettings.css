@@ -1,0 +1,29 @@
+.roomSettings {
+  display: flex;
+  align-items: center;
+}
+
+.roomSetting__listOption {
+  margin-left: 10px;
+}
+
+.roomSetting__listOption .MuiSvgIcon-root {
+  font-size: 20px;
+  padding: 2.5px;
+}
+
+.groupMember__dialog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex;
+  flex-direction: column;
+
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.75);
+
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 250px;
+}

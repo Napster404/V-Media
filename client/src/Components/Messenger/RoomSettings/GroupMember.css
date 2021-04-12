@@ -1,0 +1,14 @@
+.groupMember__listItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.groupMember__listItem p {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}

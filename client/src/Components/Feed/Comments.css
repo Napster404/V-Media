@@ -1,0 +1,42 @@
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.comment__info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.comment__body {
+  max-width: 80%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e9edf1;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.comment__bodyUsername {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.comment__bodyContent {
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.comment .MuiIconButton-root {
+  padding: 2px;
+  margin: 5px;
+}
+
+.comment .MuiSvgIcon-root {
+  font-size: 22px;
+  color: #2e81f4;
+  padding: 3px;
+}
+

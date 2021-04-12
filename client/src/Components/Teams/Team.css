@@ -1,0 +1,24 @@
+.team {
+    display: flex;
+}
+
+.team__select {
+    flex: 1;
+    margin: 35px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    max-height: 50px;
+    background-color: white;
+}
+
+.team__select > .MuiSvgIcon-root {
+    font-size: 25px;
+    color: #2e81f4;
+}
+
+.team__select > p {
+    margin-left: 10px;
+    font-weight: 600;
+}
